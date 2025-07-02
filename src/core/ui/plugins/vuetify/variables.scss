@@ -1,0 +1,15 @@
+@use 'vuetify/settings' with ($border-radius-root: .5rem);
+
+.v-field--variant-filled {
+    border-radius: var(--v-border-radius-root, 12px) !important;
+    border-bottom: none;
+    overflow: hidden !important;
+    input{
+        font-size: 14px;
+    }
+}
+.v-field--variant-filled .v-field__outline::before,
+.v-field--variant-filled .v-field__outline::after {
+    display: none !important;
+
+}

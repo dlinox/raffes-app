@@ -1,0 +1,157 @@
+[
+  {
+    "id": "1",
+    "type": "T01ST",
+    "title": "¿A que dedica el tiempo libre?",
+    "description": "Describe las actividades que realizas en tu tiempo libre.",
+    "helpText": "Ej. Leer libros, practicar deportes, ver películas, etc.",
+    "order": 1,
+    "answer": null,
+    "required": true
+  },
+  {
+    "id": "2",
+    "type": "T02LT",
+    "title": "¿Cómo te sientes en tu trabajo?",
+    "description": "Explica tus sentimientos y emociones en el entorno laboral.",
+    "order": 2,
+    "answer": null,
+    "required": false
+  },
+  {
+    "id": "3",
+    "type": "T03EM",
+    "title": "¿Cuál es tu correo electrónico?",
+    "description": "Proporciona tu dirección de correo electrónico para contacto.",
+    "helpText": "Ej. nombre@ejemplo.com",
+    "order": 3,
+    "answer": null,
+    "required": false
+  },
+  {
+    "id": "4",
+    "type": "T04PH",
+    "title": "¿Cuál es tu número de teléfono?",
+    "description": "Indica tu número de teléfono para contacto.",
+    "helpText": "Ej. 051951208106 o 951208106",
+    "order": 4,
+    "answer": null,
+    "required": false
+  },
+  {
+    "id": "5",
+    "type": "T05URL",
+    "title": "¿Cuál es tu sitio web favorito?",
+    "description": "Comparte la URL de tu sitio web favorito.",
+    "helpText": "Ej. https://www.ejemplo.com",
+    "order": 5,
+    "answer": null,
+    "required": true
+  },
+  {
+    "id": "6",
+    "type": "SC01SSC",
+    "title": "¿Cuál es tu género?",
+    "description": "Selecciona tu género de la lista.",
+    "options": [
+      { "title": "Masculino", "value": "M" },
+      { "title": "Femenino", "value": "F" },
+      { "title": "Otro", "value": "O" }
+    ],
+    "order": 6,
+    "answer": null,
+    "required": false
+  },
+  {
+    "id": "7",
+    "type": "SC02SC",
+    "title": "¿Cuál es tu actividad favorita?",
+    "description": "Selecciona tu actividad favorita de la lista.",
+    "options": [
+      {
+        "title": "Salir a correr y disfrutar de la naturaleza",
+        "value": "running"
+      },
+      { "title": "Leer un libro de ciencia ficción", "value": "reading" },
+      { "title": "Ver una película de acción", "value": "movies" },
+      { "title": "Escuchar música en vivo", "value": "live_music" }
+    ],
+    "order": 7,
+    "answer": null,
+    "required": true
+  },
+  {
+    "id": "8",
+    "type": "SC03S",
+    "title": "¿Cuál es tu deporte favorito?",
+    "description": "Selecciona tu deporte favorito de la lista.",
+    "options": [
+      { "title": "Fútbol", "value": "soccer" },
+      { "title": "Baloncesto", "value": "basketball" },
+      { "title": "Tenis", "value": "tennis" },
+      { "title": "Natación", "value": "swimming" }
+    ],
+    "order": 8,
+    "answer": null,
+    "required": true
+  },
+  {
+    "id": "9",
+    "type": "M01SC",
+    "title": "¿Qué lenguajes de programación conoces?",
+    "description": "Selecciona los lenguajes de programación que conoces.",
+    "options": [
+      { "title": "JavaScript", "value": "javascript" },
+      { "title": "Python", "value": "python" },
+      { "title": "Java", "value": "java" },
+      { "title": "C++", "value": "cpp" }
+    ],
+    "order": 9,
+    "answer": null,
+    "required": true
+  },
+  {
+    "id": "10",
+    "type": "M02S",
+    "title": "¿Qué frameworks de JavaScript conoces?",
+    "description": "Selecciona los frameworks de JavaScript que conoces.",
+    "options": [
+      { "title": "Vue.js", "value": "vue" },
+      { "title": "React", "value": "react" },
+      { "title": "Angular", "value": "angular" },
+      { "title": "Svelte", "value": "svelte" }
+    ],
+    "order": 10,
+    "answer": null,
+    "required": true
+  },
+  {
+    "id": "12",
+    "type": "N01N",
+    "title": "¿Cuánto pesas?",
+    "description": "Indica tu peso en kilogramos.",
+    "helpText": "Ej. 70",
+    "order": 12,
+    "answer": null,
+    "required": true
+  },
+  {
+    "id": "11",
+    "type": "N02IN",
+    "title": "¿Cuál es tu edad?",
+    "description": "Indica tu edad en años.",
+    "helpText": "Ej. 25",
+    "order": 11,
+    "answer": null,
+    "required": true
+  },
+  {
+    "id": "13",
+    "type": "D01D",
+    "title": "¿Cuál es tu fecha de nacimiento?",
+    "description": "Indica tu fecha de nacimiento.",
+    "order": 13,
+    "answer": null,
+    "required": true
+  }
+]
